@@ -1,0 +1,9 @@
+{
+    "login" : {
+                "inisesion" : "Log In",
+                "email" : "E-mail",
+                "passw" : "Password",
+                "establecimiento": "Establishment",
+                "login" : "Log in"
+              }
+}

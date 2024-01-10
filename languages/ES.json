@@ -1,0 +1,9 @@
+{
+    "login" : {
+                "inisesion" : "Iniciar Sesión",
+                "email" : "Dirección de e-mail",
+                "passw" : "Contraseña",
+                "establecimiento": "Establecimiento",
+                "login": "Ingresar"
+              }
+}

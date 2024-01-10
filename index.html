@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="left"></div>
+    
+    <div class="right">
+        
+        <img class="logo-WinCampo" src="./pictures/Logo_Negro.jpg" alt="Logo WinCampo">
+        
+        <div class="login-form">
+            <div class="login_box">
+                <h2 class="title" data-section="login" data-value="inisesion">Iniciar Sesión</h2>
+
+                <form action="#" method="post">
+
+                    <div class="input_box">
+                        <input type="email" minlength="10" class="input-field" required>
+                        <label for="" class="label" data-section="login" data-value="email">Dirección de e-mail</label>
+                        <i class='bx bxs-user-badge icon'></i>                    
+                    </div>
+
+                    <div class="input_box">
+                        <input type="password" minlength="8" class="input-field" required >
+                        <label for="" class="label" data-section="login" data-value="passw">Contraseña</label>
+                        <i class="bx bx-lock-alt icon"></i>
+                    </div>
+                    
+    
+                    <div class="input_box">
+                        <select class="input-field select" name="" id="" required>
+                            <option></option>
+                            <option>El Cortijo</option>
+                            <option>La Magdalena</option>
+                            <option>FEEDLOT</option>
+                        </select>
+                        <label for="" class="label" data-section="login" data-value="establecimiento">Establecimiento</label>
+                        <i class='bx bx-chevron-down icon'></i>
+                    </div>
+                    
+                    <div class="input_box">
+                        <button type="submit" class="input-submit" data-section="login" data-value="login">Ingresar</button>
+                    </div>
+
+                </form>       
+            </div>
+        </div>
+
+        <footer class="lang-select">
+            <img data-language="ES" id="ES" class="flags" src="./pictures/spain.png" alt="Bandera Español">
+            <img data-language="EN" id="EN" class="flags" src="./pictures/united-kingdom.png" alt="Bandera UK">
+        </footer>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
